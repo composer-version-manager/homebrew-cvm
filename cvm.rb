@@ -8,7 +8,8 @@ class Cvm < Formula
   bottle :unneeded
 
   def install
-    bin.install "cvm", Dir["*"]
+    bin.install Dir["*"]
+    bin.install "cvm"
   end
 end
 
