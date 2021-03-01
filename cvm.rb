@@ -9,7 +9,6 @@ class Cvm < Formula
 
   def install
     bin.install Dir["*"]
-    bin.install "cvm"
   end
 end
 
